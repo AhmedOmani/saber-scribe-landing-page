@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Download, Github } from "lucide-react";
+import { Download } from "lucide-react";
 import Image from "next/image";
 
 export default function Hero() {
