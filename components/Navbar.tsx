@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-6">
           <Link href="#features" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">Features</Link>
           <Link href="#how-it-works" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">How it Works</Link>
-          <a href="https://github.com/yourusername/the-saber-scribe" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">GitHub</a>
+          <a href="https://github.com/AhmedOmani/The-Saber-Scriber" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">GitHub</a>
         </div>
 
         <a href="#download" className="bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-full text-sm font-medium transition-all shadow-lg shadow-primary/25">
