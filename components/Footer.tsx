@@ -1,4 +1,4 @@
-import { Heart } from "lucide-react";
+import { Heart, Github, Twitter, Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -12,10 +12,16 @@ export default function Footer() {
           Built with <Heart className="h-4 w-4 text-red-500 fill-red-500" /> for Dad
         </div>
         
-        <div className="flex gap-6">
-           {/* Social links placeholder */}
-           <a href="#" className="text-muted-foreground hover:text-white transition-colors">Twitter</a>
-           <a href="#" className="text-muted-foreground hover:text-white transition-colors">GitHub</a>
+        <div className="flex gap-6 items-center">
+           <a href="https://x.com/ahmedomani_?s=21" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-white transition-colors">
+             <Twitter className="h-5 w-5" />
+           </a>
+           <a href="https://github.com/AhmedOmani/The-Saber-Scriber" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-white transition-colors">
+             <Github className="h-5 w-5" />
+           </a>
+           <a href="https://www.linkedin.com/in/ahmed-saber-04586925a/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-white transition-colors">
+             <Linkedin className="h-5 w-5" />
+           </a>
         </div>
       </div>
     </footer>
