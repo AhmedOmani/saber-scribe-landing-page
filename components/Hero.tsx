@@ -42,23 +42,26 @@ export default function Hero() {
           </motion.p>
 
           <motion.div 
+            id="download"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <a 
-              href="/SaberScribeSetup.exe" 
-              download
+              href="https://github.com/AhmedOmani/saber-scribe-landing-page/releases/download/v0.0.0/The.Saber.Scribe.Setup.0.0.0.exe" 
               className="w-full sm:w-auto flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all shadow-xl shadow-primary/25 hover:scale-105"
             >
               <Download className="h-5 w-5" />
               Download for Windows
             </a>
-            <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all">
-              <Github className="h-5 w-5" />
-              View Source
-            </button>
+            <a 
+              href="https://github.com/AhmedOmani/saber-scribe-landing-page/releases/download/v0.0.0/The-Saber-Scribe-0.0.0.AppImage" 
+              className="w-full sm:w-auto flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/10 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all backdrop-blur-sm"
+            >
+              <Download className="h-5 w-5" />
+              Download for Linux
+            </a>
           </motion.div>
         </div>
 

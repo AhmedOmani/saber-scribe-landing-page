@@ -18,9 +18,9 @@ export default function Navbar() {
           <a href="https://github.com/yourusername/the-saber-scribe" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">GitHub</a>
         </div>
 
-        <button className="bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-full text-sm font-medium transition-all shadow-lg shadow-primary/25">
+        <a href="#download" className="bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-full text-sm font-medium transition-all shadow-lg shadow-primary/25">
           Download Now
-        </button>
+        </a>
       </div>
     </nav>
   );
